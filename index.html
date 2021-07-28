@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!--castom link-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>BT5</title>
+  </head>
+  <body>
+    
+      <div class="container">
+        <p><strong>01-Some Useful HTML Character Entities;</strong></p>
+        <h1>use&lt;h1&gt; for heading text </h1>
+        <h1>cent text &cent;</h1>
+        <h1>pound text &pound;</h1>
+        <h1>yen text &yen;</h1>
+        <h1>euro text &euro;</h1>
+        <h1>copyright &copy;</h1>
+        <h1>registered trademark &reg;</h1>
+
+      </div>
+
+      <div class="container">
+        
+        <p><strong>02-Some Emoji Symbols in UTF-8;</strong></p>
+        <h1>emoji 1 (&#128507;)</h1>
+        <h1>emoji 2 (&#128508;)</h1>
+        <h1>emoji 3 (&#128509;)</h1>
+        <h1>emoji 4 (&#128510;)</h1>
+        <h1>emoji 5 (&#128511;)</h1>
+        <h1>emoji 6 (&#128512;)</h1>
+        <h1>emoji 7 (&#128513;)</h1>
+        <h1>emoji 8 (&#128514;)</h1>
+        <h1>emoji 9 (&#128515;)</h1>
+        <h1>emoji 10 (&#128516;)</h1>
+        <h1>emoji 11 (&#128517;)</h1>
+        <h1>emoji 12 (&#128518;)</h1>
+
+
+      </div>
+
+      <div class="container">
+        
+        <h1></h1>
+
+      </div>
+  
+      <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="foe_from">
+                  <p><strong> 03-from text useing;</Strong></p>
+                  <h1>Enter your data</h1>
+ 
+             <form class="needs-validation" novalidate>
+                         <!--Full name--> 
+                        <div class="mb-3">
+                          <label for="u_name" class="form-label">Full Name</label>
+                          <input type="email" class="form-control u_name" id="u_name" name="u_name" aria-describedby="emailHelp" placeholder="Enter Your Full Name" required>
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                          <div class="invalid-feedback"></div>
+                            Please Enter your full name.                         
+                          </div>
+                          
+                          <!--Email-->
+                           <div class="mb-3">
+                          <label for="u_email" class="form-label">Email address</label>
+                          <input type="email" class="form-control u_email"  id="u_email" name="u_email" aria-describedby="emailHelp" placeholder="Enter Your Email Address" required>
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                           </div>
+
+                          <!--password-->
+                           <div class="mb-3">
+                          <label for="u_pass" class="form-label">Password</label>
+                          <input type="password" class="form-control u_pass" id="u_pass" name="u_pass" placeholder="Enter Your Password" required>
+                          <div class="form-text"> Strong password must</div>
+                        </div> 
+
+                        <!--disabled input-->
+                        <input class="form-control" type="text" placeholder="Please Next time try_can't run it (disabled from)" aria-label="Disabled input example" disabled>
+                        <div class="form-text">Comeing soon</div>
+
+                        <!--message-->
+                        <div class="mb-3">
+                          <label for="u_message" class="form-label"> Your Textline</label>
+                          <textarea class="form-control u_message" id="u_message" rows="3" name="u_message"></textarea>
+                        </div>
+                        <!--file upload-->
+                        <div class="mb-3">
+                          <label for="u_from" class="form-label"> Upload File or video fotej</label>
+                          <input class="form-control form-control-sm" id="u_from" name="u_from" type="file">
+                        </div>
+
+                        <!--chakebox--> 
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                        <!--color picker-->
+
+                          <label for="exampleColorInput" class="form-label">Choose your colo for html</label>
+                          <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+
+                        <!--submit--> 
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+              </form>
+                </div>
+              </div>
+            </div>
+      </section>
+      <section>
+
+        <div class="container">
+          <strong>04-badge</strong>
+
+       <h1>1st Heading button added <span class="badge bg-secondary">Ripto</span></h1>
+       <h2>2nd Heading button added<span class="badge bg-secondary">Ripto</span></h2>
+       <h3>3rd Heading button added<span class="badge bg-secondary">Ripto</span></h3>
+       <h4>4th Heading button added<span class="badge bg-secondary">Ripto</span></h4>
+       <h5>5m Heading button added<span class="badge bg-secondary">Ripto</span></h5>
+       <h6>6th Heading button added<span class="badge bg-secondary">Ripto</span></h6>
+        
+        <h3> Notifications</h3>
+
+          <button type="button" class="btn btn-info">
+          Notifications <span class="badge bg-primary">5k</span>
+        </button><br>
+
+        <h3>inbox icon add</h3>
+            <button type="button" class="btn btn-primary position-relative">
+              Inbox
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                999+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+
+            <h3>profile icon add</h3>
+                <button type="button" class="btn btn-primary position-relative">
+                Profile
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+                </span>
+                </button>
+
+        </section>
+                      <section>
+
+                        <div class="container">
+                                <h3>05-card</h3>
+                                <p>Mixins utilities</p>
+                                <div class="card border-success mb-3" style="max-width: 18rem;">
+                          <div class="card-header bg-transparent border-success">start point, Header</div>
+                          <div class="card-body text-success">
+                            <h5 class="card-title">the head taitle</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                          <div class="card-footer bg-transparent border-success">end poin, Footer</div>
+                        </div>
+
+                        <p>Card groups</p>
+
+                            <div class="card-group">
+                            <div class="card">
+                              <img src="images/01.jpg" class="card-img-top" alt="yuor photos">
+                              <div class="card-body">
+                                <h5 class="card-title">This is supper car in the world,</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="images/02.jpg" class="card-img-top" alt="yuor photos">
+                              <div class="card-body">
+                                <h5 class="card-title">My Frist dextop desk</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="images/03.jpg" class="card-img-top" alt="yuor photos">
+                              <div class="card-body">
+                                <h5 class="card-title">My Professioal Workplace</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <h3>Horizontal</h3>
+                            <div class="card mb-3" style="max-width: 540px;">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="images/profile.jpg" class="img-fluid rounded-start" alt="My profile size picture">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">My new Photos</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+
+                              <h3>Image caps</h3>
+                              <div class="card mb-3">
+                              <img src="images/01.jpg" class="card-img-top" alt="car">
+                              <div class="card-body">
+                                <h5 class="card-title">This is supper car in the world</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">My Frist dextop desk</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                              <img src="images/02.jpg" class="card-img-bottom" alt="dext">
+                            </div>
+
+                              </div>
+                          </section>
+
+                      <section>
+                        <div class="container">
+                          <h3>06-nav and taps</h3>
+                          <p>Base nav</p>
+                             <ul class="nav">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">facebook</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Instagram</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                    </li>
+                             </ul>
+
+                             <p>Centered with .justify-content-center</p>
+
+
+                                  <ul class="nav justify-content-center">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">facebook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Instagram</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                        </li>
+                                   </ul>
+
+                                  <p>Right-aligned with .justify-content-end</p>
+
+                                     <ul class="nav justify-content-end">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">facebook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Instagram</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                        </li>
+                                    </ul>
+
+                                      <p>Fill and justify</p>
+
+                                      <ul class="nav nav-pills nav-fill">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">facebook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Instagram</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                        </li>
+                                     </ul>
+                      </section>
+
+
+
+    <!--JS links -->
+    <script src="js/popper.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
+    <!--castom link-->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
